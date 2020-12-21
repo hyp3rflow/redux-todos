@@ -87,6 +87,7 @@ const TodoInput = styled.input`
 
 const AddTodoButton = styled.button`
   height: 2.75rem;
+  padding: 0 1rem;
 
   margin-left: 1rem;
 `;
@@ -94,15 +95,18 @@ const AddTodoButton = styled.button`
 const InputContainer = styled.section`
   display: flex;
   align-items: center;
+  margin: 1.5rem 0;
 `;
 
 const TodoContainer = styled.section`
   display: flex;
+  flex-direction: column;
 `;
 
 const TodoParagraph = styled.p`
   width: 100%;
 
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 `;
